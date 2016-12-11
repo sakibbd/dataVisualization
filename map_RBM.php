@@ -109,6 +109,7 @@
     <div id="right">fdfffgffg</div>
 
 
+<?php include 'returnResult1.php'; ?>
 <script>
 
     function toggleMap(){
@@ -195,7 +196,7 @@ function createMarker(response){
               // map.removeLayer(d3.select(this));
               // map.removeLayer(clickedCircel);
                 //clickToCreateCircel(e,radius);
-                callD3BarChartWithSorting(feature,circle);
+                callD3BarChartWithSorting2(feature,circle);
                // callD3Popup(feature,circle);
             });
             //circle.colorScale().range(colorRange);
@@ -229,7 +230,7 @@ function clickToCreateCircel(e,radius){
         var dataset = [
             { key: 34, value: 34 }];
 
-  /*      $.ajax({
+        $.ajax({
             type: "GET",
             url: "returnSiteDetails.php",
             dataType: "json",
@@ -251,7 +252,7 @@ function clickToCreateCircel(e,radius){
                 console.log('Error',response);
             }
         });
-        console.log("dataset",dataset);*/
+        console.log("dataset",dataset);
 
         var w = (window.innerWidth/2)-10;
         var h = (window.innerHeight/2);
