@@ -97,7 +97,7 @@ function barChart() {
 
         });
     }
-
+//Width of the chart
     chart.width = function(value) {
         if (!arguments.length) return width;
         width = value;
