@@ -1,0 +1,8 @@
+title: Datavisualization
+description: This project is about to visualize data. For data visualization, D3.js and map.js library is used.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-architect
+
+gems:
+  - jekyll-mentions

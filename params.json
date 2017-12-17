@@ -1,6 +1,0 @@
-{
-  "name": "Datavisualization",
-  "tagline": "This project is about to visualize data. For data visualization, D3.js and map.js library is used.",
-  "body": "### Welcome to Data Visualization project.\r\nIn this project, one can visualize location based data in a map. In the map, data is being visualized in groups. Each group contains several nodes.\r\n\r\nWhen a node is clicked, it shows the corresponding data in a graphical way.\r\n\r\n### Authors and Contributors\r\nThis project is contributed by Anisur Rahaman Sakib (anisursakib@gmail.com).\r\n\r\n### Support or Contact\r\nHaving trouble with Pages? Please contact me(anisursakib@gmail.com)",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
